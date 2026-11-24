@@ -1,0 +1,21 @@
+[2026-11-24 19:06:58] Application started
+[2026-11-24 19:07:29] CPU usage: 0%; threshold: 80%
+[2026-11-24 19:10:01] Memory usage: 7%; threshold: 0%
+[2026-11-24 19:10:01] Warning: memory usage is above 0%.
+[2026-11-24 19:12:43] Disk usage checked; threshold: 80%
+[2026-11-24 19:13:35] Running processes viewed
+[2026-11-24 19:13:57] Process search: 1832
+[2026-11-24 19:17:34] Process 1832 is unavailable.
+[2026-11-24 19:18:46] Process 1832 is unavailable.
+[2026-11-24 19:19:33] Invalid option. Choose a number from the menu.
+[2026-11-24 19:19:53] Application started
+[2026-11-24 19:20:07] Termination signal sent to PID 2238 (sleep).
+[2026-11-24 19:21:51] Protected process: only your own non-root processes can be terminated.
+[2026-11-24 19:21:59] Invalid option. Choose a number from the menu.
+[2026-11-24 19:22:50] System information checked
+[2026-11-24 19:22:51] CPU usage: 0%; threshold: 80%
+[2026-11-24 19:22:52] Memory usage: 8%; threshold: 80%
+[2026-11-24 19:22:52] Disk usage checked; threshold: 80%
+[2026-11-24 19:22:52] Health report saved: y/health-20261124-192250.txt
+[2026-11-24 19:23:09] Activity log viewed
+[2026-11-24 19:23:33] Application closed
