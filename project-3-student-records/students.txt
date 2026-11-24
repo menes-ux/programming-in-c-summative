@@ -1,0 +1,22 @@
+STUDENT_RECORDS_1
+2
+J2025
+Einstein
+Nmamah
+BEL
+3
+1
+C101
+Programming in C
+75
+100
+J2026
+Eelaf
+Adam
+BSE
+2
+1
+C101
+Programming in C
+40
+100
