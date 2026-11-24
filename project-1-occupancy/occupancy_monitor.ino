@@ -28,7 +28,7 @@ struct Occupancy {
 
   void enter() {
     if (inside >= capacity) {
-      report("Entry rejected: full");
+      report("Room full. Entry rejected");
       return;
     }
 
@@ -36,12 +36,12 @@ struct Occupancy {
     ++entries;
     lights();
     display();
-    report("Entry accepted");
+    report("Welcome! Entry accepted");
   }
 
   void leave() {
     if (inside == 0) {
-      report("Exit rejected: empty");
+      report("Room empty. Exit rejected");
       return;
     }
 
@@ -49,7 +49,7 @@ struct Occupancy {
     ++exits;
     lights();
     display();
-    report("Exit accepted");
+    report("Exit accepted. Goodbye!");
   }
 
   void lights() const {
@@ -60,10 +60,14 @@ struct Occupancy {
   void display() const {
     lcd.setCursor(8, 0);
     lcd.print(inside);
-    lcd.print("  ");
-    lcd.setCursor(11, 1);
+    lcd.print("/");
+    lcd.print(capacity);
+    lcd.print(" ");
+    lcd.setCursor(8, 1);
     lcd.print(capacity - inside);
     lcd.print("  ");
+    lcd.setCursor(12, 1);
+    lcd.print(inside < capacity ? "OPEN" : "FULL");
     screenTime = millis();
   }
 };
@@ -117,7 +121,7 @@ void setup() {
   lcd.setCursor(0, 0);
   lcd.print("Inside: ");
   lcd.setCursor(0, 1);
-  lcd.print("Available: ");
+  lcd.print("Spaces: ");
 
   room->lights();
   room->display();
