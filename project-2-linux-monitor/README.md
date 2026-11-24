@@ -34,4 +34,21 @@ Invalid menu options and thresholds are rejected. Missing utilities, unavailable
 
 Fifteen scenario checks passed in Ubuntu, covering monitoring, invalid inputs, process searches, protected processes, cancelled and confirmed termination, report creation and permission errors, log viewing and clearing, missing utilities, and closed input. Termination was tested using a temporary `sleep` process created for the check.
 
-The activity log is generated when you run the script. Health reports are generated only when requested from the menu.
+Manual testing on Ubuntu 24.04.1 in WSL also confirmed a memory warning at a 0% threshold, searching by PID, confirmed termination, rejection of a protected process, handling of an unavailable PID and invalid menu input, report generation, and log viewing.
+
+## Screenshots
+
+| Screenshot | Result |
+| --- | --- |
+| [CPU](screenshots/cpu.png) | CPU usage, 80% threshold, and top processes displayed |
+| [Memory](screenshots/memory.png) | Total, used, and available memory displayed; 7% usage triggered a warning with a 0% threshold |
+| [Disk](screenshots/disk.png) | Mounted filesystems, space, and percentages displayed; the Windows drive was 71% full |
+| [Process search](screenshots/process.png) | Searching for PID 1832 returned the matching sleep process |
+| [Process termination](screenshots/process_termination.png) | Confirmation accepted and a termination signal sent to the temporary sleep process, PID 2238 |
+
+## Sample output
+
+- [Health report](reports/health-20261124-192250.txt): timestamped system information, CPU, memory, disk, and uptime from the sample run.
+- [Activity log](activity.log): monitoring results, a warning, process searches and termination, rejected operations, report generation, and log viewing.
+
+The activity log is generated beside the script. Health reports are generated only when requested; the sample report is kept in `reports/`.
