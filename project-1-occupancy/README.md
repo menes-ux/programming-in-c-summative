@@ -2,7 +2,16 @@
 
 An Arduino Uno system simulated in Tinkercad. Two buttons represent people entering and leaving a room with a capacity of 5.
 
-The LCD shows the number inside and the remaining spaces. Green means space is available; red means the room is full. The Serial Monitor shows entry and exit events, totals, and rejected attempts.
+[Open the circuit in Tinkercad](https://www.tinkercad.com/things/fgf4fVQzK0d/editel?returnTo=%2Fdashboard)
+
+The LCD shows the number inside out of 5, remaining spaces, and OPEN or FULL. Green means space is available; red means the room is full. The Serial Monitor welcomes people entering, says goodbye when they leave, and reports totals and rejected attempts.
+
+For example, with two people inside:
+
+```text
+Inside: 2/5
+Spaces: 3   OPEN
+```
 
 ## Circuit
 
@@ -32,21 +41,29 @@ No physical Arduino is needed to run the Tinkercad simulation.
 
 `Button` stores each button's reading and state. A reading must remain unchanged for 20 ms before it is accepted. Holding a button produces one event; it must be released before another press can be counted.
 
-The LCD labels are written once. After an accepted press, the LEDs and LCD numbers update before the Serial message is printed. `millis()` also schedules a numbers-only refresh after one second without a display update. There are no `delay()` calls in the sketch.
+The LCD labels are written once. After an accepted press, the LEDs, counts, and OPEN/FULL status update before the Serial message is printed. `millis()` also schedules a refresh of these values after one second without a display update. There are no `delay()` calls in the sketch.
 
 Entry is rejected when the room is full, and exit is rejected when it is empty. Rejected attempts do not change the count or accepted totals. If both presses are detected together, exit is handled first.
 
-## Tests to run
+## Testing
 
-| Action | Expected result |
+All tests below passed during manual testing in Tinkercad.
+
+| Test | Result | Status |
+| --- | --- | --- |
+| Start the simulation | Inside 0/5, spaces 5, OPEN, green on, red off, Ready message | Passed |
+| Press entry once | Inside 1/5, spaces 4; entries increases once | Passed |
+| Hold the entry button | Only the first press is counted | Passed |
+| Release entry, then press again | One more person is counted | Passed |
+| Reach 5 people | Inside 5/5, spaces 0, FULL, green off, red on | Passed |
+| Try entering when full | Entry rejected; count and totals unchanged | Passed |
+| Press exit once from full | Inside 4/5, spaces 1, OPEN, green on, red off | Passed |
+| Return to 0, then try exiting | Exit rejected; count stays 0 and totals unchanged | Passed |
+
+## Screenshots
+
+| Screenshot | What it shows |
 | --- | --- |
-| Start the simulation | Inside 0, available 5, green on, red off, Ready message |
-| Press entry once | Inside 1, available 4; entries increases once |
-| Hold the entry button | Count stays unchanged after the first accepted press |
-| Release entry, then press again | One more person is counted |
-| Reach 5 people | Inside 5, available 0, green off, red on |
-| Try entering when full | Entry rejected; count and totals unchanged |
-| Press exit once from full | Inside 4, available 1, green on, red off |
-| Return to 0, then try exiting | Exit rejected; count stays 0 and totals unchanged |
-
-These are expected results. Execution in Tinkercad still needs to be checked before recording actual results.
+| [Available](screenshots/available.png) | Inside 2/5, spaces 3, OPEN, green LED, and accepted entry/exit messages |
+| [Full](screenshots/full.png) | Inside 5/5, spaces 0, FULL, red LED, and a rejected entry with unchanged totals |
+| [Empty](screenshots/empty.png) | Inside 0/5, spaces 5, OPEN, green LED, and a rejected exit with unchanged totals |
