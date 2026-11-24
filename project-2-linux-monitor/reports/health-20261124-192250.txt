@@ -1,0 +1,43 @@
+System health report
+Generated: 2026-11-24 19:22:50 CAT
+
+System information
+Hostname: menes-ax
+Operating system: Ubuntu 24.04.1 LTS
+Kernel: 5.15.167.4-microsoft-standard-WSL2
+Uptime: up 1 hour, 5 minutes
+Date and time: 2026-11-24 19:22:50 CAT
+
+CPU usage: 0% (warning above 80%)
+
+Top CPU processes
+    PID COMMAND         %CPU %MEM
+   2263 bash             0.9  0.0
+     93 systemd-udevd    0.0  0.0
+   2218 wsl-pro-service  0.0  0.2
+      1 systemd          0.0  0.1
+     51 systemd-journal  0.0  0.2
+
+Memory (MiB)
+Total: 7800
+Used: 650
+Available: 7149
+Usage: 8% (warning above 80%)
+
+Disk usage (warning above 80%)
+Filesystem      Size  Used Avail Use% Mounted on
+none            3.9G     0  3.9G   0% /usr/lib/modules/5.15.167.4-microsoft-standard-WSL2
+none            3.9G  4.0K  3.9G   1% /mnt/wsl
+drivers         476G  338G  139G  71% /usr/lib/wsl/drivers
+/dev/sdc       1007G  2.4G  954G   1% /
+none            3.9G   80K  3.9G   1% /mnt/wslg
+none            3.9G     0  3.9G   0% /usr/lib/wsl/lib
+rootfs          3.9G  2.4M  3.9G   1% /init
+none            3.9G  532K  3.9G   1% /run
+none            3.9G     0  3.9G   0% /run/lock
+none            3.9G     0  3.9G   0% /run/shm
+tmpfs           4.0M     0  4.0M   0% /sys/fs/cgroup
+none            3.9G   76K  3.9G   1% /mnt/wslg/versions.txt
+none            3.9G   76K  3.9G   1% /mnt/wslg/doc
+C:\             476G  338G  139G  71% /mnt/c
+tmpfs           781M   16K  781M   1% /run/user/1000
