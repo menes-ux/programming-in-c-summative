@@ -1,0 +1,53 @@
+My Sales Records
+1. Add transaction
+2. List transactions
+3. Update transaction
+4. Delete transaction
+5. Process sales data
+6. Filter transactions
+7. Search transactions
+8. Sort transactions
+9. Sales report
+10. Save transactions
+11. Load transactions
+0. Save and exit
+Choose an option: 8
+1. Transaction ID
+2. Product name
+3. Total amount
+0. Back
+Sort by: 1
+Order (1 ascending, 2 descending): 2
+Transactions sorted.
+
+ID             Product                  Quantity   Unit price          Total Date      
+T003           Coffee                          4      2500.00       10000.00 2026-11-25
+T002           Bread                           3      1000.00        3000.00 2026-11-25
+T001           Coffee                          2      2500.00        5000.00 2026-11-25
+
+My Sales Records
+1. Add transaction
+2. List transactions
+3. Update transaction
+4. Delete transaction
+5. Process sales data
+6. Filter transactions
+7. Search transactions
+8. Sort transactions
+9. Sales report
+10. Save transactions
+11. Load transactions
+0. Save and exit
+Choose an option: 8
+1. Transaction ID
+2. Product name
+3. Total amount
+0. Back
+Sort by: 1
+Order (1 ascending, 2 descending): 1
+Transactions sorted.
+
+ID             Product                  Quantity   Unit price          Total Date      
+T001           Coffee                          2      2500.00        5000.00 2026-11-25
+T002           Bread                           3      1000.00        3000.00 2026-11-25
+T003           Coffee                          4      2500.00       10000.00 2026-11-25
