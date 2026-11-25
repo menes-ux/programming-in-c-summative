@@ -1,5 +1,7 @@
 # Programming in C Summative
 
+[Watch the demonstration](https://www.youtube.com/watch?v=JWgDHQQUD5E)
+
 | Project | What it does | Code | Concepts |
 | --- | --- | --- | --- |
 | [Occupancy monitor](project-1-occupancy/README.md) | Tracks entry, exit, and available room capacity in Tinkercad. | [occupancy_monitor.ino](project-1-occupancy/occupancy_monitor.ino) | Structures, pointers, dynamic memory, `millis()`, and Arduino I/O. |
