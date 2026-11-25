@@ -1,0 +1,47 @@
+My Sales Records
+1. Add transaction
+2. List transactions
+3. Update transaction
+4. Delete transaction
+5. Process sales data
+6. Filter transactions
+7. Search transactions
+8. Sort transactions
+9. Sales report
+10. Save transactions
+11. Load transactions
+0. Save and exit
+Choose an option: 10
+Saved 3 transactions to sales.txt.
+
+My Sales Records
+1. Add transaction
+2. List transactions
+3. Update transaction
+4. Delete transaction
+5. Process sales data
+6. Filter transactions
+7. Search transactions
+8. Sort transactions
+9. Sales report
+10. Save transactions
+11. Load transactions
+0. Save and exit
+Choose an option: 0
+menesadissolinux@menes-ax:/mnt/c/Users/menes/OneDrive/Passwords/Dev docs + projects/Alu coursework/Programming in C/Summative/programming-in-c-summative/project-4-sales$ ./a.out 
+Loaded 3 transactions from sales.txt.
+
+My Sales Records
+1. Add transaction
+2. List transactions
+3. Update transaction
+4. Delete transaction
+5. Process sales data
+6. Filter transactions
+7. Search transactions
+8. Sort transactions
+9. Sales report
+10. Save transactions
+11. Load transactions
+0. Save and exit
+Choose an option: 
