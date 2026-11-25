@@ -1,0 +1,230 @@
+menesadissolinux@menes-ax:/mnt/c/Users/menes/OneDrive/Passwords/Dev docs + projects/Alu coursework/Programming in C/Summative/programming-in-c-summative/project-4-sales$ ./a.out 
+No sales.txt found. Current transactions are unchanged.
+
+My Sales Records
+1. Add transaction
+2. List transactions
+3. Update transaction
+4. Delete transaction
+5. Process sales data
+6. Filter transactions
+7. Search transactions
+8. Sort transactions
+9. Sales report
+10. Save transactions
+11. Load transactions
+0. Save and exit
+Choose an option: 1
+New transaction ID: T001
+Product name: Coffee 
+Quantity sold: 2
+Unit price: 2500
+Date (YYYY-MM-DD): 2026-11-25
+Transaction recorded.
+
+ID             Product                  Quantity   Unit price          Total Date      
+T001           Coffee                          2      2500.00        5000.00 2026-11-25
+
+My Sales Records
+1. Add transaction
+2. List transactions
+3. Update transaction
+4. Delete transaction
+5. Process sales data
+6. Filter transactions
+7. Search transactions
+8. Sort transactions
+9. Sales report
+10. Save transactions
+11. Load transactions
+0. Save and exit
+Choose an option: 1
+New transaction ID: T002 
+Product name: Bread 
+Quantity sold: 3
+Unit price: 1000
+Date (YYYY-MM-DD): 2026-11-25
+Transaction recorded.
+
+ID             Product                  Quantity   Unit price          Total Date      
+T002           Bread                           3      1000.00        3000.00 2026-11-25
+
+My Sales Records
+1. Add transaction
+2. List transactions
+3. Update transaction
+4. Delete transaction
+5. Process sales data
+6. Filter transactions
+7. Search transactions
+8. Sort transactions
+9. Sales report
+10. Save transactions
+11. Load transactions
+0. Save and exit
+Choose an option: 1
+New transaction ID: T003
+Product name: Coffee 
+Quantity sold: 4
+Unit price: 2500
+Date (YYYY-MM-DD): 2026-11-25
+Transaction recorded.
+
+ID             Product                  Quantity   Unit price          Total Date      
+T003           Coffee                          4      2500.00       10000.00 2026-11-25
+
+My Sales Records
+1. Add transaction
+2. List transactions
+3. Update transaction
+4. Delete transaction
+5. Process sales data
+6. Filter transactions
+7. Search transactions
+8. Sort transactions
+9. Sales report
+10. Save transactions
+11. Load transactions
+0. Save and exit
+Choose an option: 2
+
+ID             Product                  Quantity   Unit price          Total Date      
+T001           Coffee                          2      2500.00        5000.00 2026-11-25
+T002           Bread                           3      1000.00        3000.00 2026-11-25
+T003           Coffee                          4      2500.00       10000.00 2026-11-25
+
+My Sales Records
+1. Add transaction
+2. List transactions
+3. Update transaction
+4. Delete transaction
+5. Process sales data
+6. Filter transactions
+7. Search transactions
+8. Sort transactions
+9. Sales report
+10. Save transactions
+11. Load transactions
+0. Save and exit
+Choose an option: 5
+1. Total revenue
+2. Average transaction value
+3. Highest transaction
+4. Lowest transaction
+5. Total units sold
+0. Back
+Process sales: 1
+Total revenue: 18000.00
+
+My Sales Records
+1. Add transaction
+2. List transactions
+3. Update transaction
+4. Delete transaction
+5. Process sales data
+6. Filter transactions
+7. Search transactions
+8. Sort transactions
+9. Sales report
+10. Save transactions
+11. Load transactions
+0. Save and exit
+Choose an option: 5
+1. Total revenue
+2. Average transaction value
+3. Highest transaction
+4. Lowest transaction
+5. Total units sold
+0. Back
+Process sales: 2
+Average transaction value: 6000.00
+
+My Sales Records
+1. Add transaction
+2. List transactions
+3. Update transaction
+4. Delete transaction
+5. Process sales data
+6. Filter transactions
+7. Search transactions
+8. Sort transactions
+9. Sales report
+10. Save transactions
+11. Load transactions
+0. Save and exit
+Choose an option: 5
+1. Total revenue
+2. Average transaction value
+3. Highest transaction
+4. Lowest transaction
+5. Total units sold
+0. Back
+Process sales: 3
+Highest transaction value: 10000.00
+
+ID             Product                  Quantity   Unit price          Total Date      
+T003           Coffee                          4      2500.00       10000.00 2026-11-25
+
+My Sales Records
+1. Add transaction
+2. List transactions
+3. Update transaction
+4. Delete transaction
+5. Process sales data
+6. Filter transactions
+7. Search transactions
+8. Sort transactions
+9. Sales report
+10. Save transactions
+11. Load transactions
+0. Save and exit
+Choose an option: 5
+1. Total revenue
+2. Average transaction value
+3. Highest transaction
+4. Lowest transaction
+5. Total units sold
+0. Back
+Process sales: 4
+Lowest transaction value: 3000.00
+
+ID             Product                  Quantity   Unit price          Total Date      
+T002           Bread                           3      1000.00        3000.00 2026-11-25
+
+My Sales Records
+1. Add transaction
+2. List transactions
+3. Update transaction
+4. Delete transaction
+5. Process sales data
+6. Filter transactions
+7. Search transactions
+8. Sort transactions
+9. Sales report
+10. Save transactions
+11. Load transactions
+0. Save and exit
+Choose an option: 5
+1. Total revenue
+2. Average transaction value
+3. Highest transaction
+4. Lowest transaction
+5. Total units sold
+0. Back
+Process sales: 5
+Total units sold: 9
+
+My Sales Records
+1. Add transaction
+2. List transactions
+3. Update transaction
+4. Delete transaction
+5. Process sales data
+6. Filter transactions
+7. Search transactions
+8. Sort transactions
+9. Sales report
+10. Save transactions
+11. Load transactions
+0. Save and exit
+Choose an option: 
