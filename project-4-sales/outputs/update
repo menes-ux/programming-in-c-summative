@@ -1,0 +1,94 @@
+My Sales Records
+1. Add transaction
+2. List transactions
+3. Update transaction
+4. Delete transaction
+5. Process sales data
+6. Filter transactions
+7. Search transactions
+8. Sort transactions
+9. Sales report
+10. Save transactions
+11. Load transactions
+0. Save and exit
+Choose an option: 99
+Enter a whole number from 0 to 11.
+Choose an option: 1
+New transaction ID: T001
+That transaction ID is already recorded.
+
+My Sales Records
+1. Add transaction
+2. List transactions
+3. Update transaction
+4. Delete transaction
+5. Process sales data
+6. Filter transactions
+7. Search transactions
+8. Sort transactions
+9. Sales report
+10. Save transactions
+11. Load transactions
+0. Save and exit
+Choose an option: 7
+1. Transaction ID
+2. Product name
+3. Transaction amount
+0. Back
+Search by: 1
+Search for: UNKNOWN
+Matches: 0
+
+My Sales Records
+1. Add transaction
+2. List transactions
+3. Update transaction
+4. Delete transaction
+5. Process sales data
+6. Filter transactions
+7. Search transactions
+8. Sort transactions
+9. Sales report
+10. Save transactions
+11. Load transactions
+0. Save and exit
+Choose an option: 1
+New transaction ID: TTEST
+Product name: Tea
+Quantity sold: -1
+Quantity must be a positive whole number.
+Quantity sold: 1
+Unit price: -10
+Unit price must be greater than zero.
+Unit price: 500
+Date (YYYY-MM-DD): 2026-02-29
+Enter a real date in YYYY-MM-DD format.
+Date (YYYY-MM-DD): 2026-11-25
+Transaction recorded.
+
+ID             Product                  Quantity   Unit price          Total Date      
+TTEST          Tea                             1       500.00         500.00 2026-11-25
+
+My Sales Records
+1. Add transaction
+2. List transactions
+3. Update transaction
+4. Delete transaction
+5. Process sales data
+6. Filter transactions
+7. Search transactions
+8. Sort transactions
+9. Sales report
+10. Save transactions
+11. Load transactions
+0. Save and exit
+Choose an option: 3
+Transaction ID: TTEST
+Product name: Tea
+Quantity sold: 2
+Unit price: 750
+Date (YYYY-MM-DD): 2026-11-25
+Transaction updated.
+
+ID             Product                  Quantity   Unit price          Total Date      
+TTEST          Tea                             2       750.00        1500.00 2026-11-25
