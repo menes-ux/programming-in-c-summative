@@ -1,0 +1,3 @@
+Farmers use IoT to check soil moisture.
+The pump starts when the soil is dry.
+An iot alert appears on the phone.

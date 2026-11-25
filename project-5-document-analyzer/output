@@ -1,0 +1,33 @@
+tive/programming-in-c-summative/project-5-document-analyzer$ gcc mydocuments.c 
+menesadissolinux@menes-ax:/mnt/c/Users/menes/OneDrive/Passwords/Dev docs + projects/Alu coursework/Programming in C/Summative/programming-in-c-summative/project-5-document-analyzer$ gcc -std=c11 -Wall -Wextra -Wpedantic mydocuments.c -pthread -o a.out
+./a.out "IoT" document1.txt document2.txt document3.txt
+My Document Analyzer
+Keyword: IoT
+Input files: 3
+
+[Thread 1] Starting: document1.txt
+[Thread 2] Starting: document2.txt
+[Thread 3] Starting: document3.txt
+
+Processing results
+[Thread 1] Completed: document1.txt | 3 lines, 3 occurrences, 2 matching lines
+  Report: analysis_1.txt
+[Thread 2] Completed: document2.txt | 3 lines, 2 occurrences, 2 matching lines
+  Report: analysis_2.txt
+[Thread 3] Completed: document3.txt | 3 lines, 0 occurrences, 0 matching lines
+  Keyword not found.
+  Report: analysis_3.txt
+All files processed successfully.
+menesadissolinux@menes-ax:/mnt/c/Users/menes/OneDrive/Passwords/Dev docs + projects/Alu coursework/Programming in C/Summative/programming-in-c-summative/project-5-document-analyzer$ 
+
+menesadissolinux@menes-ax:/mnt/c/Users/menes/OneDrive/Passwords/Dev docs + projects/Alu coursework/Programming in C/Summative/programming-in-c-summative/project-5-document-analyzer$ ./a.out "IoT" missing.txt
+My Document Analyzer
+Keyword: IoT
+Input files: 1
+
+[Thread 1] Starting: missing.txt
+
+Processing results
+[Thread 1] ERROR: missing.txt | Cannot open input file: No such file or directory
+  Report: analysis_1_2.txt
+Finished with errors. See the results above.

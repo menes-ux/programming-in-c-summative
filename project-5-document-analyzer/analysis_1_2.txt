@@ -1,0 +1,12 @@
+Document analysis report
+Input file: missing.txt
+Search keyword: IoT
+
+Matching line numbers:
+None
+
+Total lines: 0
+Keyword occurrences: 0
+Matching lines: 0
+Status: ERROR
+Error: Cannot open input file: No such file or directory

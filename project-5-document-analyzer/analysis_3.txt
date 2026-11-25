@@ -1,0 +1,11 @@
+Document analysis report
+Input file: document3.txt
+Search keyword: IoT
+
+Matching line numbers:
+None
+
+Total lines: 3
+Keyword occurrences: 0
+Matching lines: 0
+Status: SUCCESS
