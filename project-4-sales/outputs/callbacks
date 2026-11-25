@@ -1,0 +1,24 @@
+My Sales Records
+1. Add transaction
+2. List transactions
+3. Update transaction
+4. Delete transaction
+5. Process sales data
+6. Filter transactions
+7. Search transactions
+8. Sort transactions
+9. Sales report
+10. Save transactions
+11. Load transactions
+0. Save and exit
+Choose an option: 6
+1. Transactions above an amount
+2. Transactions involving a product
+0. Back
+Filter by: 1
+Amount: 4000
+
+ID             Product                  Quantity   Unit price          Total Date      
+T001           Coffee                          2      2500.00        5000.00 2026-11-25
+T003           Coffee                          4      2500.00       10000.00 2026-11-25
+Matching transactions: 2
