@@ -1,0 +1,9 @@
+
+Sales report
+Transactions: 3
+Total revenue: 18000.00
+Average transaction value: 6000.00
+Highest transaction: T003 | Coffee | 10000.00
+Lowest transaction: T002 | Bread | 3000.00
+Total units sold: 9
+Revenue for Coffee: 15000.00 (2 transactions)
